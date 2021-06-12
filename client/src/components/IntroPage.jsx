@@ -9,7 +9,15 @@ class IntroPage extends React.Component {
     return (
       <div id="firstsection" className="frontp">
         <div>
-          <h1>Hello</h1>
+          <h1>
+            Hello,<span></span>
+          </h1>
+          <h1>
+            My name is <span></span>
+          </h1>
+          <h1>
+            John Roswell Cua <span></span>
+          </h1>
           <button className="fpbutton">Portfolio</button>
         </div>
       </div>
