@@ -10,6 +10,11 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/dist/style.css'));
 });
 
+app.get('/PortfolioHome', (req, res) => {
+  res.sendFile(path.join(__dirname, '../client/dist/index.html'));
+  res.sendFile(path.join(__dirname, '../client/dist/style.css'));
+});
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });

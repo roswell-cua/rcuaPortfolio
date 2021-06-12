@@ -1,10 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class IntroPage extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div id="firstsection" className="frontp">
@@ -18,7 +15,9 @@ class IntroPage extends React.Component {
           <h1>
             John Roswell Cua <span></span>
           </h1>
-          <button className="fpbutton">Portfolio</button>
+          <Link to="/PortfolioHome" className="fpbutton">
+            Portfolio
+          </Link>
         </div>
       </div>
     );

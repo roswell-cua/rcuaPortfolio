@@ -1,5 +1,7 @@
 import React from 'react';
 import IntroPage from './IntroPage.jsx';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import AboutMe from './AboutMe.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -8,9 +10,22 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
-        <IntroPage />
-      </div>
+      <Router>
+        <Route
+          exact
+          path="/"
+          render={() => {
+            return <IntroPage />;
+          }}
+        />
+        <Route
+          exact
+          path="/PortfolioHome"
+          render={() => {
+            return <AboutMe />;
+          }}
+        />
+      </Router>
     );
   }
 }
