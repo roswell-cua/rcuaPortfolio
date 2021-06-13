@@ -6,9 +6,12 @@ class NavBar extends React.Component {
     return (
       <nav class="brown">
         <div class="nav-wrapper">
-          <Link to="/" class="brand-logo">
+          <a
+            href="https://github.com/roswell-cua/rcuaPortfolio"
+            class="brand-logo"
+          >
             John Roswell Cua
-          </Link>
+          </a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li>
               <Link to="/">Cover</Link>
