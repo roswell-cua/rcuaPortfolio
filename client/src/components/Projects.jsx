@@ -13,19 +13,25 @@ class Projects extends React.Component {
           <div className="all-projects">
             <div className="project-item">
               <div className="project-info">
-                <h1>Project 1</h1>
-                <h2>Coding is Love</h2>
+                <h1>UTeachMe</h1>
+                <h2>
+                  Technologies used: React, Node, Express, MongoDB, Amazon EC2
+                </h2>
+                <a href="https://github.com/Uteach-me/utm-course-overview">
+                  Github project link{' '}
+                </a>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged. It was popularised in the 1960s with
-                  the release of Letraset sheets containing Lorem Ipsum
-                  passages, and more recently with desktop publishing software
-                  like Aldus PageMaker including versions of Lorem Ipsum.
+                  In this project, I worked with a group of people to design a
+                  webpage for an e-commerce type website. My task was to create
+                  a collasible data table for the overview section of the
+                  selected course. In this project I was able to use React API
+                  states and lifecycle methods to deliver a modular user
+                  interface. To make sure it would render correctly with data
+                  sets, I architected a seed in MongoDB w/lean queries and
+                  loaded them up to the front-end. When everything was said and
+                  done, I uploaded the component up to an AWS EC2 t2.micro and
+                  ran a few tests to get a webpage Performance score in the 98th
+                  Percentile.
                 </p>
               </div>
               <div className="project-img">
@@ -34,19 +40,25 @@ class Projects extends React.Component {
             </div>
             <div className="project-item">
               <div className="project-info">
-                <h1>Project 2</h1>
-                <h2>Coding is Love</h2>
+                <h1>Project BARK</h1>
+                <h2>
+                  Technologies used: Node, Express, MySQL, MongoDB, Nginx, New
+                  Relic, Loader.io
+                </h2>
+                <a href="https://github.com/6-BARK/PhotoGallery">
+                  Github project link{' '}
+                </a>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged. It was popularised in the 1960s with
-                  the release of Letraset sheets containing Lorem Ipsum
-                  passages, and more recently with desktop publishing software
-                  like Aldus PageMaker including versions of Lorem Ipsum.
+                  In this project, backend work was prioritized. Given a photo
+                  gallery service, the task at hand was to stress test requests
+                  and scale up the microservice. I was able to benchmark both a
+                  non-relational database(mongoDB) and a relational
+                  database(MySQL) to determine which database to test on New
+                  Relic and to pick for performance. I generated and loaded
+                  sample data sets of up to 20 million to simulate production
+                  level data. I then horizontally scaled the microservice on a
+                  cloud based web service to handle 10,000 RPS using Node,
+                  Express, and Nginx.
                 </p>
               </div>
               <div className="project-img">
@@ -55,19 +67,19 @@ class Projects extends React.Component {
             </div>
             <div className="project-item">
               <div className="project-info">
-                <h1>Project 3</h1>
-                <h2>Coding is Love</h2>
+                <h1>Sticker Store</h1>
+                <h2>
+                  Technologies used: React-redux, React-native, Node, Express,
+                  MySQL
+                </h2>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged. It was popularised in the 1960s with
-                  the release of Letraset sheets containing Lorem Ipsum
-                  passages, and more recently with desktop publishing software
-                  like Aldus PageMaker including versions of Lorem Ipsum.
+                  In this project, I explored the difference between react and
+                  react native. I coded up a sample mini store front that was
+                  IOS and Android friendly. Using stores, actions, and reducers
+                  with react redux made everything much more smoothly. Once the
+                  front-end was done, everything was then connected onwards to a
+                  mySQL database using node/express to hold sample customer
+                  data.
                 </p>
               </div>
               <div className="project-img">

@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/dist/style.css'));
 });
 
-app.get('/PortfolioHome', (req, res) => {
+app.get('/aboutme', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/dist/index.html'));
   res.sendFile(path.join(__dirname, '../client/dist/style.css'));
 });

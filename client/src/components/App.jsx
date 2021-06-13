@@ -3,6 +3,7 @@ import IntroPage from './IntroPage.jsx';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import AboutMe from './AboutMe.jsx';
 import Projects from './Projects.jsx';
+import NavBar from './NavBar.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -12,6 +13,7 @@ class App extends React.Component {
   render() {
     return (
       <Router>
+        <NavBar />
         <Route
           exact
           path="/"
@@ -21,7 +23,7 @@ class App extends React.Component {
         />
         <Route
           exact
-          path="/PortfolioHome"
+          path="/aboutme"
           render={() => {
             return <AboutMe />;
           }}
