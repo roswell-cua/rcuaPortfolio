@@ -152,6 +152,10 @@ html {
 }
 
 /* Project */
+#projects {
+  background-image: url('./images/wood.jpeg');
+}
+
 #projects .projects {
   flex-direction: column;
   max-width: 1200px;

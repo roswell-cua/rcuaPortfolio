@@ -10,7 +10,7 @@ class NavBar extends React.Component {
             href="https://github.com/roswell-cua/rcuaPortfolio"
             class="brand-logo"
           >
-            John Roswell Cua
+            My github for this portfolio
           </a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li>
