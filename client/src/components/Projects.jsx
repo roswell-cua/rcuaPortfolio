@@ -35,7 +35,7 @@ class Projects extends React.Component {
                 </p>
               </div>
               <div className="project-img">
-                <img src="../../dist/images/project.jpeg" alt="img" />
+                <img src="./images/collapsebar.gif" alt="img" />
               </div>
             </div>
             <div className="project-item">
@@ -57,12 +57,13 @@ class Projects extends React.Component {
                   Relic and to pick for performance. I generated and loaded
                   sample data sets of up to 20 million to simulate production
                   level data. I then horizontally scaled the microservice on a
-                  cloud based web service to handle 10,000 RPS using Node,
+                  cloud based web service to handle up to 10,000 RPS using Node,
                   Express, and Nginx.
                 </p>
               </div>
               <div className="project-img">
-                <img src="../../client/dist/images/project.jpeg" alt="img" />
+                <img src="./images/loader1.png" alt="img" />
+                <img src="./images/loader2.png" alt="img" />
               </div>
             </div>
             <div className="project-item">
@@ -83,7 +84,8 @@ class Projects extends React.Component {
                 </p>
               </div>
               <div className="project-img">
-                <img src="../../client/dist/images/project.jpeg" alt="img" />
+                <img src="./images/shop1.gif" alt="img" />
+                <img src="./images/shop2.gif" alt="img" />
               </div>
             </div>
           </div>
