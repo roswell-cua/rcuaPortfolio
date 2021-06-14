@@ -133,7 +133,7 @@ html {
 
 #aboutmep {
   background-size: cover;
-  background-image: url('./images/wood.jpeg');
+  background-color: rgb(150, 137, 137);
   background-position: top center;
   position: relative;
   z-index: 1;
@@ -150,6 +150,63 @@ html {
   opacity: 0.1;
   z-index: -1;
 }
+
+.aboutme {
+  min-height: 100vh !important;
+  width: 100% !important;
+  display: flex !important;
+}
+
+#aboutmep .personal-info {
+  padding: 30px;
+  flex-basis: 100%;
+  background-color: white;
+  height: 100%;
+  display: flex;
+  align-items: flex;
+  flex-direction: column;
+  background-image: url('./images/wood.jpeg');
+  color: white;
+}
+
+.personal-info .p {
+  font-size: 20px;
+}
+
+#aboutmep .aboutme-item {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+#aboutmep .aboutme-info {
+  padding: 30px;
+  flex-basis: 50%;
+  background-color: white;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(102, 76, 76);
+  color: white;
+}
+
+#aboutmep .aboutme-info h1 {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+#aboutmep .aboutme-info p {
+  font-size: 1.5rem;
+}
+
+/* About Me End */
 
 /* Project */
 #projects {

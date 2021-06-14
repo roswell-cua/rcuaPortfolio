@@ -4,15 +4,15 @@ import { Link } from 'react-router-dom';
 class NavBar extends React.Component {
   render() {
     return (
-      <nav class="brown">
-        <div class="nav-wrapper">
+      <nav className="brown">
+        <div className="nav-wrapper">
           <a
             href="https://github.com/roswell-cua/rcuaPortfolio"
-            class="brand-logo"
+            className="brand-logo"
           >
             My github for this portfolio
           </a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li>
               <Link to="/">Cover</Link>
             </li>

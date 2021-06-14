@@ -16,7 +16,7 @@ class IntroPage extends React.Component {
             John Roswell Cua <span></span>
           </h1>
           <Link to="/aboutme" className="fpbutton">
-            Portfolio
+            About Me
           </Link>
         </div>
       </div>
