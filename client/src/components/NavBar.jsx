@@ -14,7 +14,7 @@ class NavBar extends React.Component {
           </a>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li>
-              <Link to="/">Cover</Link>
+              <Link to="/">Start Here!!</Link>
             </li>
             <li>
               <Link to="aboutme">About Me</Link>
