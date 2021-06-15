@@ -33,13 +33,13 @@ class AboutMe extends React.Component {
               <div className="aboutme-info">
                 <h1>Background/Education</h1>
                 <div className="infop">
-                  <div>
+                  <p>
                     <b>Education:</b>
                     <br></br>
                     Software Engineering Immersive @ Hack Reactor, B.S.
                     <br></br>
                     Biochemistry & Molecular Biology @ UC Davis
-                  </div>
+                  </p>
                   <p>
                     <b>Non-traditional?</b>
                     <br></br>
