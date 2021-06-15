@@ -5,6 +5,8 @@ import AboutMe from './AboutMe.jsx';
 import Projects from './Projects.jsx';
 import NavBar from './NavBar.jsx';
 
+const routerBaseName = 'https://roswell-cua.github.io/';
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -12,7 +14,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <Router>
+      <Router basename={routerBaseName}>
         <NavBar />
         <Route
           exact
