@@ -62,8 +62,14 @@ class Projects extends React.Component {
                 </p>
               </div>
               <div className="project-img">
-                <img src="/images/loader1.png" alt="img" />
-                <img src="/images/loader2.png" alt="img" />
+                <img
+                  src="https://github.com/roswell-cua/rcuaPortfolio/blob/master/images/loader1.png"
+                  alt="img"
+                />
+                <img
+                  src="https://github.com/roswell-cua/rcuaPortfolio/blob/master/images/loader2.png"
+                  alt="img"
+                />
               </div>
             </div>
             <div className="project-item">
