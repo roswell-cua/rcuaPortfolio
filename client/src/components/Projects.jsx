@@ -35,7 +35,7 @@ class Projects extends React.Component {
                 </p>
               </div>
               <div className="project-img">
-                <img src="images/collapsebar.GIF" alt="img" />
+                <img src="images/collapsebar.gif" alt="img" />
               </div>
             </div>
             <div className="project-item">
@@ -62,8 +62,8 @@ class Projects extends React.Component {
                 </p>
               </div>
               <div className="project-img">
-                <img src="images/loader1.PNG" alt="img" />
-                <img src="images/loader2.PNG" alt="img" />
+                <img src="images/loader1.png" alt="img" />
+                <img src="images/loader2.png" alt="img" />
               </div>
             </div>
             <div className="project-item">
@@ -84,8 +84,8 @@ class Projects extends React.Component {
                 </p>
               </div>
               <div className="project-img">
-                <img src="images/shop1.GIF" alt="img" />
-                <img src="images/shop2.GIF" alt="img" />
+                <img src="images/shop1.gif" alt="img" />
+                <img src="images/shop2.gif" alt="img" />
               </div>
             </div>
           </div>
