@@ -1,10 +1,6 @@
 import React from 'react';
 import IntroPage from './IntroPage.jsx';
-import {
-  BrowserRouter as Router,
-  Route,
-  browserHistory
-} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import AboutMe from './AboutMe.jsx';
 import Projects from './Projects.jsx';
 import NavBar from './NavBar.jsx';
@@ -16,7 +12,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <Router history={browserHistory}>
+      <Router>
         <NavBar />
         <Route
           exact
