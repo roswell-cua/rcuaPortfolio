@@ -40,7 +40,7 @@ class AboutMe extends React.Component {
                     <br></br>
                     Biochemistry & Molecular Biology @ UC Davis
                   </div>
-                  <div>
+                  <p>
                     <b>Non-traditional?</b>
                     <br></br>
                     As you can see, before I became a software engineer, I was a
@@ -56,8 +56,8 @@ class AboutMe extends React.Component {
                     about this programming world! I can gladly say that I am
                     enjoying everything so far, from making gorgeous looking
                     webpages to solving data structures/algorithms.
-                  </div>
-                  <div>
+                  </p>
+                  <p>
                     <b>Addressing the elephant in the room!</b>
                     <br></br>
                     Let's face the facts, if you're here reading about me,
@@ -75,7 +75,7 @@ class AboutMe extends React.Component {
                     motivated and eager to find a place to use these newfound
                     skills and continually grow both professionally and
                     personally.
-                  </div>
+                  </p>
                 </div>
               </div>
             </div>
