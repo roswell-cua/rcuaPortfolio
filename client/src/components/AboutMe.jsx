@@ -84,7 +84,7 @@ class AboutMe extends React.Component {
               <div className="aboutme-info">
                 <h1>Contact Me</h1>
                 <p>Email: ross.cua@gmail.com</p>
-                <p className="infop">
+                <div className="infop">
                   LinkedIn:{' '}
                   <a href="https://www.linkedin.com/in/johnroswellcua/">
                     LinkedIn Profile
@@ -94,7 +94,7 @@ class AboutMe extends React.Component {
                     Github Page:
                     <a href="https://github.com/roswell-cua"> Github Profile</a>
                   </p>
-                </p>
+                </div>
               </div>
             </div>
           </div>
