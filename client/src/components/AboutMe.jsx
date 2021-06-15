@@ -27,13 +27,12 @@ class AboutMe extends React.Component {
                     Click me for projects
                   </Link>
                 </h1>
-                <div></div>
               </div>
             </div>
             <div className="aboutme-item">
               <div className="aboutme-info">
                 <h1>Background/Education</h1>
-                <p className="infop">
+                <div className="infop">
                   <div>
                     <b>Education:</b>
                     <br></br>
@@ -77,7 +76,7 @@ class AboutMe extends React.Component {
                     skills and continually grow both professionally and
                     personally.
                   </div>
-                </p>
+                </div>
               </div>
             </div>
             <div className="aboutme-item">
