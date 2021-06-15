@@ -1,6 +1,6 @@
 import React from 'react';
 import IntroPage from './IntroPage.jsx';
-import { HashRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import AboutMe from './AboutMe.jsx';
 import Projects from './Projects.jsx';
 import NavBar from './NavBar.jsx';
