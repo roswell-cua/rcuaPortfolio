@@ -84,10 +84,12 @@ class AboutMe extends React.Component {
                 <h1>Contact Me</h1>
                 <p>Email: ross.cua@gmail.com</p>
                 <div className="infop">
-                  LinkedIn:{' '}
-                  <a href="https://www.linkedin.com/in/johnroswellcua/">
-                    LinkedIn Profile
-                  </a>
+                  <p>
+                    LinkedIn:{' '}
+                    <a href="https://www.linkedin.com/in/johnroswellcua/">
+                      LinkedIn Profile
+                    </a>
+                  </p>
                   <br></br>
                   <p>
                     Github Page:
