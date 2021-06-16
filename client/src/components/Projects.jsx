@@ -35,7 +35,10 @@ class Projects extends React.Component {
                 </p>
               </div>
               <div className="project-img">
-                <img src="images/collapsebar.gif" alt="img" />
+                <img
+                  src="https://github.com/roswell-cua/rcuaPortfolio/blob/master/images/collapsebar.gif"
+                  alt="img"
+                />
               </div>
             </div>
             <div className="project-item">
