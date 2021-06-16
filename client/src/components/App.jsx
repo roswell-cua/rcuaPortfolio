@@ -12,7 +12,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <Router basename="/rcuaPortfolio">
+      <Router>
         <NavBar />
         <Route
           exact
