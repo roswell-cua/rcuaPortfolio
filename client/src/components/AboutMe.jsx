@@ -14,12 +14,14 @@ class AboutMe extends React.Component {
               <div className="aboutme-info">
                 <h1>Technologies</h1>
                 <p className="infop">
-                  Front End: Javascript ES6+, React, React-Native, HTML, CSS,
+                  Front End: Javascript ES6+, Typescript , React, React-Redux, React-Hooks, React-Native, HTML, CSS,
                   webpack, babel
                   <br></br>
-                  Back End: Node/Express, MySQL, MongoDB, Nginx
+                  Back End: Node/Express, MSSQL, MySQL, MongoDB, Nginx
                   <br></br>
-                  Others:Docker, Kubernetes, Mocha/Chai, Jest/Enzyme,
+                  Cloud: Microsoft Azure Services
+                  <br></br>
+                  Others:Swagger, Docker, Kubernetes, Mocha/Chai, Jest/Enzyme,
                   Git/Github, Trello, Asana, New Relic, Loader.io, K6.io
                 </p>
                 <h1>
@@ -31,12 +33,58 @@ class AboutMe extends React.Component {
             </div>
             <div className="aboutme-item">
               <div className="aboutme-info">
+                <h1>Work Experience</h1>
+                <div className="infop">
+                <p>
+                    <br></br>
+                    Company: <b>Trackonomy Systems</b>
+                    <br></br>
+                    Title: <b>Full Stack Engineer</b>
+                    <br></br>
+                    <br></br>
+                    Responsibilities: 
+                    <br></br>
+                    <br></br>
+                    <ul>
+                      <li>{`\u25CF`} Collaborated across multiple departments, working closely with project managers to ensure project requirements were met. Provided valuable metrics and insights to executives, aiding in informed decision-making.</li>
+                      <br></br>
+                      <li>{`\u25CF`} Designed and implemented API logic to govern the functionality of in-house hardware, standardized documentation with Swagger, and ensured robustness through Jest mock testing. Utilized  Auth0 to implement  seamless authentication across in-house APIs, enhancing security and access control measures.</li>
+                      <br></br>
+                      <li>{`\u25CF`} Developed a sophisticated logic network to be customizable to specific needs of individual customers, such as email/phone notifications for specific tracking requirements or real-time data streaming for others.</li>
+                      <br></br>
+                      <li>{`\u25CF`} Processed large volumes of data. Played a key role in devising the logic for seamless data transmission and accurate interpretation between systems leveraging Azure Cosmos, MSSQL, and Node.js to check for devices and determine their location.</li>
+                      <br></br>
+                      <li>{`\u25CF`} Enhanced in-house operations through the development of bespoke full-stack apps for various departments, facilitating streamlined hardware setting modifications by non-technical staff through in-house built React UIs.</li>
+                    </ul>
+                    <br></br>
+                  </p>
+                  <br></br>
+                  <p>
+                    Company: <b>theCoderSchool</b>
+                    <br></br>
+                    Title: <b>Code Coach</b>
+                    <br></br>
+                    <br></br>
+                    Responsibilities:
+                    <br></br>
+                    <br></br>
+                    <ul>
+                      <li>{`\u25CF`} Developed coding passion in kids K-12 by introducing them to computer science</li>
+                      <br></br>
+                      <li>{`\u25CF`} Created curriculum, ie: basic visual games to teach programming concepts in python/javascript</li>
+                    </ul>
+                  </p> 
+                </div>
+              </div>
+            </div>
+            <div className="aboutme-item">
+              <div className="aboutme-info">
                 <h1>Background/Education</h1>
                 <div className="infop">
                   <p>
                     <b>Education:</b>
                     <br></br>
-                    Software Engineering Immersive @ Hack Reactor, B.S.
+                    Software Engineering Immersive @ Hack Reactor.
                     <br></br>
                     Biochemistry & Molecular Biology @ UC Davis
                   </p>
@@ -65,16 +113,7 @@ class AboutMe extends React.Component {
                     looking for a place to grow and be part of a team. I know
                     that I come from a non-traditional background but I can
                     assure you that i'm just as good as any other engineer out
-                    there! After finishing up a Software Engineering Immersive
-                    program, I obtained familiarity with full-stack applications
-                    such as Javascript with React for the front-end, server-side
-                    technologies such as Node.js and Express, and MongoDB and
-                    MySQL for relational/non-relational databases. On top of the
-                    current technologies I know, I am constantly pushing myself
-                    to learn new technologies on a daily basis. I am currently
-                    motivated and eager to find a place to use these newfound
-                    skills and continually grow both professionally and
-                    personally.
+                    there!
                   </p>
                 </div>
               </div>
